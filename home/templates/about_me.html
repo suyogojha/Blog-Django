@@ -1,0 +1,111 @@
+{% extends 'base.html' %} 
+
+{% load static %} 
+{% block title %}
+<title>About Me</title>
+{% endblock %} 
+
+
+
+{% block about %}
+
+
+<article class="about-section py-5">
+  <div class="container">
+    <h2 class="title mb-3">About Me</h2>
+
+    <p>
+      A front-end web developer is responsible for implementing visual and
+      interactive elements that users engage with through their web browser when
+      using a web application. They are usually supported by back-end web
+      developers, who are responsible for server-side application logic and
+      integration of the work front-end developers do.
+    </p>
+    <figure>
+      <img style="border-radius:30px; border:2px solid gray"
+        class="img-fluid"
+        height="auto"
+        width="300px"
+        src="{% static 'images/pic.jpg' %}"
+        alt="image"
+      />
+    </figure>
+    <h5 class="mt-5">Social Links</h5>
+        <a href="https://www.facebook.com/suyog.ojha.7">
+            <p>
+                <img src="https://img.icons8.com/material-rounded/50/000000/facebook-new.png"/> 
+                <span style="color:red;">: Connect to me through Facebook</span>
+            </p>
+        </a> <hr>
+
+        <a href="https://www.instagram.com/suyog.ojha/">
+            <p>
+                <img src="https://img.icons8.com/ios/50/000000/instagram-new.png"/> 
+                <span style="color:green;">: Connect to me through Instagram</span>
+                    </p>
+        </a> <hr>
+
+        <a href="https://twitter.com/suyogojha1">
+            <p>
+                <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png"/> 
+                <span style="color:brown;">: Connect to me through Twitter</span>      
+            </p>
+        </a> <hr>
+
+        <a href="https://www.linkedin.com/in/suyog-ojha-681b851a0">
+            <p>
+                <img src="https://img.icons8.com/material-rounded/24/000000/linkedin--v1.png"/> 
+                <span style="color:pink;">: Connect to me through Linkedin</span>     
+            </p>
+        </a> <hr>
+
+        <a href="">
+            <p>
+                <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> 
+                <span style="color:rgb(88, 72, 230)(131, 38, 38);">: Connect to me through Github</span>
+            </p>
+            </a> <hr>
+
+        <a href="">
+            <p>
+                <img src="https://img.icons8.com/color/48/000000/youtube-play.png"/> 
+                <span style="color:rgb(30, 218, 102);">: Connect to me through YouTube</span>
+            </p>
+        </a> <hr>
+
+        <a href="">
+            <p>
+                <img src="https://img.icons8.com/ios/50/000000/overview-pages-1.png"/> 
+                <span style="color:rgb(247, 63, 191);">: Connect to me through FacebookPage</span>
+            </p>
+        </a> <hr>
+
+        <a href="https://suyogojha.github.io/ojha.suyog/" target="blank">
+            <p>
+                <img src="https://img.icons8.com/ios/50/000000/domain.png"/> 
+                <span style="color:rgb(209, 221, 41);">: Connect to me through Website 1</span>
+            </p>
+        </a> <hr>
+
+                    
+        <a href="https://suyogojha.github.io/ojhasuyog/" target="blank">
+            <p>
+                <img src="https://img.icons8.com/ios/50/000000/domain.png"/> 
+                <span style="color:rgb(230, 84, 84);">: Connect to me through Website 2</span>
+            </p>
+         </a> <hr>
+                    
+        <a href="https://suyogojha.github.io/suyogojha/" target="blank">
+            <p >
+                <img src="https://img.icons8.com/ios/50/000000/domain.png"/> 
+                <span style="color:rgb(33, 243, 233);">: Connect to me through Website 3 </span>
+            </p>
+        </a> <hr>
+
+  </div>
+</article>
+<!--//about-section-->
+
+{% endblock %}
+
+

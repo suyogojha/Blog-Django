@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %} 
+
+{% block title %}
+<title>User list</title>
+{% endblock %}
+
+{% block userlist %}
+
+
+<section class="mt-5 pt-5">
+    <div class="container">
+       
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">User Name</th>
+            <th scope="col">Verified</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+          <tr>
+            <th scope="row">{{forloop.counter}}</th>
+            <td>{{i.user}}</td>
+            <td>{{i.is_verified}}</td>
+
+          </tr>
+          {% endfor %}
+         
+
+          </tbody>
+          </table>
+          
+    </div>
+</section>
+
+
+
+{% endblock %}
